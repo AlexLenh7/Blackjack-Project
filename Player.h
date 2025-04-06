@@ -1,13 +1,15 @@
 #include <iostream>
 #include <string>
+#include "GenericPlayer.h"
 
-class Player
+class Player : public GenericPlayer
 {
 public:
-    Player(const std::string& name);
+    Player(const std::string& name = "");
     virtual ~Player();
-    virtual bool isHitting();
-    bool win();
-    bool lose();
-    bool push();
+    virtual bool isHitting() const;
+
+    bool win() const;
+    bool lose() const;
+    bool push() const;
 };

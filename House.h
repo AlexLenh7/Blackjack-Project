@@ -1,10 +1,13 @@
 #include <iostream>
+#include "GenericPlayer.h"
 
-class House
+class House : public GenericPlayer
 {
 public:
     House(const std::string& name = "Dealer");
     virtual ~House();
-    virtual bool isHitting();
+
+    virtual bool isHitting() const;
+
     void firstFirstCard();
 };

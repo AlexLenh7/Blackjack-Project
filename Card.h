@@ -32,8 +32,10 @@ public:
     };
 
     Card(RANK rank = ACE, SUIT suit = SPADES, bool isUp = true);
-    int	getValue();
+    int	getValue() const;
     void flip();
+    
+    friend std::ostream& operator<<(std::ostream& os, const Card& aCard);
 
 protected:
     RANK rank;
