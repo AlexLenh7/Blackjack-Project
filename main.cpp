@@ -1,5 +1,5 @@
 #include <iostream>
-#include <string.h>
+#include <string>
 #include "Game.h"
 
 //Print appropriate welcome message to begin the game

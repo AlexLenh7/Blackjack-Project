@@ -20,6 +20,7 @@ House::~House() {
 //ENDIF
 //END FUNCTION
 bool House::isHitting() const {
+    std::cout << "[DEBUG] Dealer total: " << getTotal() << std::endl;
     return (getTotal() <= 16);
 }
 

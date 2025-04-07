@@ -29,9 +29,9 @@ void Deck::populate()
     clearHand(); // Clear any existing cards
 
     // Create standard deck of 52 cards
-    for (int s = Card::CLUBS; s <= Card::SPADES; ++s) 
+    for (int s = Card::CLUBS; s <= Card::SPADES; s++) 
     {
-        for (int r = Card::ACE; r <= Card::KING; ++r) 
+        for (int r = Card::ACE; r <= Card::KING; r++) 
         {
             add(new Card(static_cast<Card::RANK>(r), static_cast<Card::SUIT>(s)));
         }
@@ -84,17 +84,24 @@ void Deck::deal(Hand& aHand)
 //END IF
 //END WHILE
 //END FUNCTION
-void Deck::additionalCards(GenericPlayer& aGenericPlayer) 
-{
+void Deck::additionalCards(GenericPlayer& aGenericPlayer) {
+    std::cout << std::endl; // Add a line break for readability
+
     // Continue to deal a card as long as player isn't busted and wants another hit
-    while (!aGenericPlayer.isBusted() && aGenericPlayer.isHitting()) 
-    {
+    while (!aGenericPlayer.isBusted() && aGenericPlayer.isHitting()) {
+        // Check if deck is empty before dealing
+        if (cardVector.empty()) {
+            std::cout << "Out of cards. Unable to deal more cards." << std::endl;
+            break; // Exit the loop if no more cards
+        }
+
         deal(aGenericPlayer);
         std::cout << aGenericPlayer << std::endl;
 
-        if (aGenericPlayer.isBusted()) 
-        {
+        // Check if player has busted after receiving card
+        if (aGenericPlayer.getTotal() > 21) {
             aGenericPlayer.bust();
+            break; // Exit the loop if player busts
         }
     }
 }

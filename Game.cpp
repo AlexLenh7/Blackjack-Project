@@ -42,7 +42,7 @@ Game::~Game() {
 //END FUNCTION
 void Game::play() {
     // Deal initial 2 cards to each player
-    for (int i = 0; i < 2; i++) 
+    for (int i = 0; i < 2; i++)
     {
         deck.deal(player);
         deck.deal(house);
@@ -60,35 +60,36 @@ void Game::play() {
     std::cout << "\n--- Player's Turn ---" << std::endl;
     deck.additionalCards(player);
 
-    // Reveal dealer's first card
-    house.flipFirstCard();
-    std::cout << house << std::endl;
-
-    // Deal additional cards to dealer
-    deck.additionalCards(house);
-
-    // If house is busted, player wins (if not busted)
-    if (house.isBusted()) 
+    if (player.isBusted())
     {
-        if (!player.isBusted()) 
+        std::cout << "\n--- Player has busted! ---" << std::endl;
+        player.lose();
+    }
+    else
+    {
+        std::cout << "\n--- Dealer's Turn ---" << std::endl;
+        house.flipFirstCard();
+        std::cout << house << std::endl;
+
+        deck.additionalCards(house);
+
+        std::cout << "\n--- Game Results ---" << std::endl;
+
+        if (house.isBusted())
         {
             player.win();
         }
-    }
-    else 
-    {
-        // Compare hands if neither is busted
-        if (!player.isBusted()) 
+        else
         {
-            if (player.getTotal() > house.getTotal()) 
+            if (player.getTotal() > house.getTotal())
             {
                 player.win();
             }
-            else if (player.getTotal() < house.getTotal()) 
+            else if (player.getTotal() < house.getTotal())
             {
                 player.lose();
             }
-            else 
+            else
             {
                 player.push(); // Tie game
             }

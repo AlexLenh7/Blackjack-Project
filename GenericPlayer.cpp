@@ -28,13 +28,10 @@ bool GenericPlayer::isBusted() const
 //Function bust()
 //Print the name and display that the player has busted
 //END FUNCTION
-bool GenericPlayer::bust() const
+void GenericPlayer::bust() const
 {
-	std::cout << name << " busts." << std::endl;
-    return true;
+    std::cout << name << " busts with " << getTotal() << "." << std::endl;
 }
-
-//Function getTotal()
 
 //Function getName();
 std::string GenericPlayer::getName() const
@@ -71,16 +68,20 @@ std::ostream& operator<<(std::ostream& os, const GenericPlayer& aGenericPlayer) 
     os << aGenericPlayer.name << "\t";
 
     std::vector<Card*>::const_iterator iter;
-    if (!aGenericPlayer.cardVector.empty()) {
-        for (iter = aGenericPlayer.cardVector.begin(); iter != aGenericPlayer.cardVector.end(); ++iter) {
+    if (!aGenericPlayer.cardVector.empty()) 
+    {
+        for (iter = aGenericPlayer.cardVector.begin(); iter != aGenericPlayer.cardVector.end(); ++iter) 
+        {
             os << *(*iter) << "\t";
         }
 
-        if (aGenericPlayer.getTotal() != 0) {
+        if (aGenericPlayer.getTotal() != 0) 
+        {
             os << "(" << aGenericPlayer.getTotal() << ")";
         }
     }
-    else {
+    else 
+    {
         os << "<empty>";
     }
 

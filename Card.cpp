@@ -11,16 +11,15 @@ Card::Card(RANK rank, SUIT suit, bool isUp)
 //END FUNCTION
 int Card::getValue() const
 {
-	// if value of card is facing up
-	if (isFaceUp)
+	if (isFaceUp) 
 	{
-		// return the value of that card
+		if (rank > 10) 
+		{
+			return 10;  // J, Q, K
+		}
 		return static_cast<int>(rank);
 	}
-	else
-	{
-		return 0; // else return 0
-	}
+	return 0;
 }
 
 //Function flip()

@@ -16,7 +16,7 @@ public:
     
     virtual bool isHitting() const = 0;
     bool isBusted() const;
-    bool bust() const;
+    void bust() const;
 
     std::string getName() const;
     void setName(const std::string& name);

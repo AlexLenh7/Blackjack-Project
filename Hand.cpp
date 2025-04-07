@@ -37,8 +37,9 @@ void Hand::add(Card* ptr)
 void Hand::clearHand()
 {
 	std::vector<Card*>::iterator iter;
-	for (iter = cardVector.begin(); iter != cardVector.end(); ++iter) {
+	for (iter = cardVector.begin(); iter != cardVector.end(); iter++) {
 		delete* iter; // Delete each card
+		*iter = NULL;
 	}
 	cardVector.clear();
 }
@@ -67,30 +68,29 @@ void Hand::clearHand()
 //END FUNCTION
 int Hand::getTotal() const
 {
-	// if card is empty return 0
-	if (cardVector.empty())
-	{
-		return 0;
-	}
+    if (cardVector.empty())
+    {
+        return 0;
+    }
 
-	// if first card is face down return 0
-	if (cardVector[0]->getValue())
-	{
-		return 0;
-	}
+    int total = 0;
+    bool containsAce = false;
 
-	int total = 0;
-	std::vector<Card*>::const_iterator iter;
-	for (iter = cardVector.begin(); iter != cardVector.end(); ++iter) {
-		total += (*iter)->getValue();
-	}
+    for (const auto& card : cardVector)
+    {
+        int value = card->getValue(); // will be 0 if face down
+        if (value == 1)
+        {
+            containsAce = true;
+        }
+        total += value;
+    }
 
-	for (iter = cardVector.begin(); iter != cardVector.end(); ++iter) {
-		if ((*iter)->getValue() == 1 && total <= 11) { // If the card is an Ace and total is <= 11
-			total += 10; // Add 10 (since we've already added 1)
-			break; // Only adjust for one ace
-		}
-	}
+    // Account for Ace as 11 if it helps
+    if (containsAce && total <= 11)
+    {
+        total += 10;
+    }
 
-	return total;
+    return total;
 }
