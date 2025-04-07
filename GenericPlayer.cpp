@@ -31,6 +31,7 @@ bool GenericPlayer::isBusted() const
 bool GenericPlayer::bust() const
 {
 	std::cout << name << " busts." << std::endl;
+    return true;
 }
 
 //Function getTotal()

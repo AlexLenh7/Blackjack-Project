@@ -1,3 +1,6 @@
+#ifndef HOUSE_H
+#define HOUSE_H
+
 #include <iostream>
 #include "GenericPlayer.h"
 
@@ -9,5 +12,7 @@ public:
 
     virtual bool isHitting() const;
 
-    void firstFirstCard();
+    void flipFirstCard();
 };
+
+#endif // HOUSE_H

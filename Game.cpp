@@ -42,7 +42,7 @@ Game::~Game() {
 //END FUNCTION
 void Game::play() {
     // Deal initial 2 cards to each player
-    for (int i = 0; i < 2; ++i) 
+    for (int i = 0; i < 2; i++) 
     {
         deck.deal(player);
         deck.deal(house);
@@ -52,10 +52,12 @@ void Game::play() {
     house.flipFirstCard();
 
     // Show initial hands
+    std::cout << "\n--- Initial Deal ---" << std::endl;
     std::cout << player << std::endl;
     std::cout << house << std::endl;
 
     // Deal additional cards to player
+    std::cout << "\n--- Player's Turn ---" << std::endl;
     deck.additionalCards(player);
 
     // Reveal dealer's first card

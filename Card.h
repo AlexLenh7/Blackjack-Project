@@ -1,3 +1,6 @@
+#ifndef CARD_H
+#define CARD_H
+
 #include <iostream>
 
 class Card
@@ -41,3 +44,5 @@ protected:
     RANK rank;
     SUIT suit;
 };
+
+#endif // CARD_H

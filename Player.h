@@ -1,3 +1,6 @@
+#ifndef PLAYER_H
+#define PLAYER_H
+
 #include <iostream>
 #include <string>
 #include "GenericPlayer.h"
@@ -13,3 +16,5 @@ public:
     bool lose() const;
     bool push() const;
 };
+
+#endif // PLAYER_H

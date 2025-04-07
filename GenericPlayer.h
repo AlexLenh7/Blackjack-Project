@@ -1,3 +1,6 @@
+#ifndef GENERICPLAYER_H
+#define GENERICPLAYER_H
+
 #include <iostream>
 #include <string>
 #include "Hand.h"
@@ -20,3 +23,5 @@ public:
 
     friend std::ostream& operator<<(std::ostream& os, const GenericPlayer& aGenericPlayer);
 };
+
+#endif // GENERICPLAYER_H

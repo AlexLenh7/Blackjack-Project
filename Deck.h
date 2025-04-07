@@ -1,3 +1,6 @@
+#ifndef DECK_H
+#define DECK_H
+
 #include <iostream>
 #include "GenericPlayer.h"
 #include "Hand.h"
@@ -14,3 +17,4 @@ public:
     void additionalCards(GenericPlayer& aGenericPlayer);
 };
 
+#endif // DECK_H

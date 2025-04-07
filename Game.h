@@ -1,3 +1,6 @@
+#ifndef GAME_H
+#define GAME_H
+
 #include <iostream>
 #include "Deck.h"
 #include "House.h"
@@ -15,3 +18,5 @@ public:
     ~Game();
     void play();
 };
+
+#endif // GAME_H

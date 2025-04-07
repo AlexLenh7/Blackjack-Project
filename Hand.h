@@ -1,3 +1,6 @@
+#ifndef HAND_H
+#define HAND_H
+
 #include <iostream>
 #include <vector>
 #include "Card.h"
@@ -14,3 +17,5 @@ public:
 protected:
     std::vector<Card*> cardVector;
 };
+
+#endif // HAND_H

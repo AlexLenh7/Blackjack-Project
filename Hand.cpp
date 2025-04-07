@@ -13,7 +13,7 @@ Hand::Hand()
 //Destructor
 //Call the function clearHand()
 //END FUNCTION
-Hand::Hand()
+Hand::~Hand()
 {
 	clearHand();
 }

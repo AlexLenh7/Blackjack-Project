@@ -3,20 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\alexl\\OneDrive\\Documents\\GitHub\\Blackjack Project\\Blackjack Project\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{82128889-4820-4444-A5BB-FDC67B1F9062}|Blackjack Project.vcxproj|C:\\Users\\alexl\\OneDrive\\Documents\\GitHub\\Blackjack Project\\Blackjack Project\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{82128889-4820-4444-A5BB-FDC67B1F9062}|Blackjack Project.vcxproj|solutionrelative:Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82128889-4820-4444-A5BB-FDC67B1F9062}|Blackjack Project.vcxproj|C:\\Users\\alexl\\OneDrive\\Documents\\GitHub\\Blackjack Project\\Blackjack Project\\Hand.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{82128889-4820-4444-A5BB-FDC67B1F9062}|Blackjack Project.vcxproj|solutionrelative:Hand.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82128889-4820-4444-A5BB-FDC67B1F9062}|Blackjack Project.vcxproj|C:\\Users\\alexl\\OneDrive\\Documents\\GitHub\\Blackjack Project\\Blackjack Project\\GenericPlayer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{82128889-4820-4444-A5BB-FDC67B1F9062}|Blackjack Project.vcxproj|solutionrelative:GenericPlayer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82128889-4820-4444-A5BB-FDC67B1F9062}|Blackjack Project.vcxproj|C:\\Users\\alexl\\OneDrive\\Documents\\GitHub\\Blackjack Project\\Blackjack Project\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{82128889-4820-4444-A5BB-FDC67B1F9062}|Blackjack Project.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82128889-4820-4444-A5BB-FDC67B1F9062}|Blackjack Project.vcxproj|C:\\Users\\alexl\\OneDrive\\Documents\\GitHub\\Blackjack Project\\Blackjack Project\\House.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{82128889-4820-4444-A5BB-FDC67B1F9062}|Blackjack Project.vcxproj|solutionrelative:House.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82128889-4820-4444-A5BB-FDC67B1F9062}|Blackjack Project.vcxproj|C:\\Users\\alexl\\OneDrive\\Documents\\GitHub\\Blackjack Project\\Blackjack Project\\House.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{82128889-4820-4444-A5BB-FDC67B1F9062}|Blackjack Project.vcxproj|solutionrelative:House.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{82128889-4820-4444-A5BB-FDC67B1F9062}|Blackjack Project.vcxproj|C:\\Users\\alexl\\OneDrive\\Documents\\GitHub\\Blackjack Project\\Blackjack Project\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{82128889-4820-4444-A5BB-FDC67B1F9062}|Blackjack Project.vcxproj|solutionrelative:Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82128889-4820-4444-A5BB-FDC67B1F9062}|Blackjack Project.vcxproj|C:\\Users\\alexl\\OneDrive\\Documents\\GitHub\\Blackjack Project\\Blackjack Project\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{82128889-4820-4444-A5BB-FDC67B1F9062}|Blackjack Project.vcxproj|solutionrelative:Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82128889-4820-4444-A5BB-FDC67B1F9062}|Blackjack Project.vcxproj|C:\\Users\\alexl\\OneDrive\\Documents\\GitHub\\Blackjack Project\\Blackjack Project\\Deck.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{82128889-4820-4444-A5BB-FDC67B1F9062}|Blackjack Project.vcxproj|solutionrelative:Deck.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{82128889-4820-4444-A5BB-FDC67B1F9062}|Blackjack Project.vcxproj|C:\\Users\\alexl\\OneDrive\\Documents\\GitHub\\Blackjack Project\\Blackjack Project\\GenericPlayer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{82128889-4820-4444-A5BB-FDC67B1F9062}|Blackjack Project.vcxproj|solutionrelative:GenericPlayer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{82128889-4820-4444-A5BB-FDC67B1F9062}|Blackjack Project.vcxproj|C:\\Users\\alexl\\OneDrive\\Documents\\GitHub\\Blackjack Project\\Blackjack Project\\Deck.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{82128889-4820-4444-A5BB-FDC67B1F9062}|Blackjack Project.vcxproj|solutionrelative:Deck.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{82128889-4820-4444-A5BB-FDC67B1F9062}|Blackjack Project.vcxproj|C:\\Users\\alexl\\OneDrive\\Documents\\GitHub\\Blackjack Project\\Blackjack Project\\Card.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{82128889-4820-4444-A5BB-FDC67B1F9062}|Blackjack Project.vcxproj|solutionrelative:Card.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{82128889-4820-4444-A5BB-FDC67B1F9062}|Blackjack Project.vcxproj|C:\\Users\\alexl\\OneDrive\\Documents\\GitHub\\Blackjack Project\\Blackjack Project\\Deck.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{82128889-4820-4444-A5BB-FDC67B1F9062}|Blackjack Project.vcxproj|solutionrelative:Deck.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{82128889-4820-4444-A5BB-FDC67B1F9062}|Blackjack Project.vcxproj|C:\\Users\\alexl\\OneDrive\\Documents\\GitHub\\Blackjack Project\\Blackjack Project\\Hand.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{82128889-4820-4444-A5BB-FDC67B1F9062}|Blackjack Project.vcxproj|solutionrelative:Hand.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,58 +58,163 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Card.h",
+              "DocumentMoniker": "C:\\Users\\alexl\\OneDrive\\Documents\\GitHub\\Blackjack Project\\Blackjack Project\\Card.h",
+              "RelativeDocumentMoniker": "Card.h",
+              "ToolTip": "C:\\Users\\alexl\\OneDrive\\Documents\\GitHub\\Blackjack Project\\Blackjack Project\\Card.h",
+              "RelativeToolTip": "Card.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-07T05:16:22.289Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "House.cpp",
+              "DocumentMoniker": "C:\\Users\\alexl\\OneDrive\\Documents\\GitHub\\Blackjack Project\\Blackjack Project\\House.cpp",
+              "RelativeDocumentMoniker": "House.cpp",
+              "ToolTip": "C:\\Users\\alexl\\OneDrive\\Documents\\GitHub\\Blackjack Project\\Blackjack Project\\House.cpp",
+              "RelativeToolTip": "House.cpp",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACAAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-07T06:02:11.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Game.cpp",
+              "DocumentMoniker": "C:\\Users\\alexl\\OneDrive\\Documents\\GitHub\\Blackjack Project\\Blackjack Project\\Game.cpp",
+              "RelativeDocumentMoniker": "Game.cpp",
+              "ToolTip": "C:\\Users\\alexl\\OneDrive\\Documents\\GitHub\\Blackjack Project\\Blackjack Project\\Game.cpp",
+              "RelativeToolTip": "Game.cpp",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAEAAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-07T05:44:56.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\alexl\\OneDrive\\Documents\\GitHub\\Blackjack Project\\Blackjack Project\\main.cpp",
+              "RelativeDocumentMoniker": "main.cpp",
+              "ToolTip": "C:\\Users\\alexl\\OneDrive\\Documents\\GitHub\\Blackjack Project\\Blackjack Project\\main.cpp",
+              "RelativeToolTip": "main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-07T05:34:23.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GenericPlayer.cpp",
+              "DocumentMoniker": "C:\\Users\\alexl\\OneDrive\\Documents\\GitHub\\Blackjack Project\\Blackjack Project\\GenericPlayer.cpp",
+              "RelativeDocumentMoniker": "GenericPlayer.cpp",
+              "ToolTip": "C:\\Users\\alexl\\OneDrive\\Documents\\GitHub\\Blackjack Project\\Blackjack Project\\GenericPlayer.cpp",
+              "RelativeToolTip": "GenericPlayer.cpp",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAFUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-07T05:28:29.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Hand.cpp",
+              "DocumentMoniker": "C:\\Users\\alexl\\OneDrive\\Documents\\GitHub\\Blackjack Project\\Blackjack Project\\Hand.cpp",
+              "RelativeDocumentMoniker": "Hand.cpp",
+              "ToolTip": "C:\\Users\\alexl\\OneDrive\\Documents\\GitHub\\Blackjack Project\\Blackjack Project\\Hand.cpp",
+              "RelativeToolTip": "Hand.cpp",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-07T05:24:08.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "House.h",
+              "DocumentMoniker": "C:\\Users\\alexl\\OneDrive\\Documents\\GitHub\\Blackjack Project\\Blackjack Project\\House.h",
+              "RelativeDocumentMoniker": "House.h",
+              "ToolTip": "C:\\Users\\alexl\\OneDrive\\Documents\\GitHub\\Blackjack Project\\Blackjack Project\\House.h",
+              "RelativeToolTip": "House.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-07T05:23:35.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Hand.h",
+              "DocumentMoniker": "C:\\Users\\alexl\\OneDrive\\Documents\\GitHub\\Blackjack Project\\Blackjack Project\\Hand.h",
+              "RelativeDocumentMoniker": "Hand.h",
+              "ToolTip": "C:\\Users\\alexl\\OneDrive\\Documents\\GitHub\\Blackjack Project\\Blackjack Project\\Hand.h",
+              "RelativeToolTip": "Hand.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-07T05:22:43.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Game.h",
+              "DocumentMoniker": "C:\\Users\\alexl\\OneDrive\\Documents\\GitHub\\Blackjack Project\\Blackjack Project\\Game.h",
+              "RelativeDocumentMoniker": "Game.h",
+              "ToolTip": "C:\\Users\\alexl\\OneDrive\\Documents\\GitHub\\Blackjack Project\\Blackjack Project\\Game.h",
+              "RelativeToolTip": "Game.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAiwAwAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-07T05:21:48.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Player.h",
               "DocumentMoniker": "C:\\Users\\alexl\\OneDrive\\Documents\\GitHub\\Blackjack Project\\Blackjack Project\\Player.h",
               "RelativeDocumentMoniker": "Player.h",
               "ToolTip": "C:\\Users\\alexl\\OneDrive\\Documents\\GitHub\\Blackjack Project\\Blackjack Project\\Player.h",
               "RelativeToolTip": "Player.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-04-06T11:52:42.167Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "GenericPlayer.h",
               "DocumentMoniker": "C:\\Users\\alexl\\OneDrive\\Documents\\GitHub\\Blackjack Project\\Blackjack Project\\GenericPlayer.h",
               "RelativeDocumentMoniker": "GenericPlayer.h",
               "ToolTip": "C:\\Users\\alexl\\OneDrive\\Documents\\GitHub\\Blackjack Project\\Blackjack Project\\GenericPlayer.h",
               "RelativeToolTip": "GenericPlayer.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-04-06T11:51:09.012Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "Deck.h",
               "DocumentMoniker": "C:\\Users\\alexl\\OneDrive\\Documents\\GitHub\\Blackjack Project\\Blackjack Project\\Deck.h",
               "RelativeDocumentMoniker": "Deck.h",
               "ToolTip": "C:\\Users\\alexl\\OneDrive\\Documents\\GitHub\\Blackjack Project\\Blackjack Project\\Deck.h",
               "RelativeToolTip": "Deck.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-04-06T11:37:33.292Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Deck.cpp",
-              "DocumentMoniker": "C:\\Users\\alexl\\OneDrive\\Documents\\GitHub\\Blackjack Project\\Blackjack Project\\Deck.cpp",
-              "RelativeDocumentMoniker": "Deck.cpp",
-              "ToolTip": "C:\\Users\\alexl\\OneDrive\\Documents\\GitHub\\Blackjack Project\\Blackjack Project\\Deck.cpp",
-              "RelativeToolTip": "Deck.cpp",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAAAGMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-19T10:01:25.316Z",
               "EditorCaption": ""
             }
           ]

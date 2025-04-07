@@ -31,7 +31,7 @@ bool House::isHitting() const {
 //Display an appropriate message indicating that there are no cards to flip
 //END IF
 //END FUNCTION
-void House::firstFirstCard() {
+void House::flipFirstCard() {
     if (!cardVector.empty()) {
         cardVector[0]->flip(); // Flip the first card
     }
