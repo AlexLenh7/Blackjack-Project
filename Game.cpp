@@ -54,6 +54,7 @@ void Game::play() {
     // Show initial hands
     std::cout << "\n--- Initial Deal ---" << std::endl;
     std::cout << player << std::endl;
+    house.flipFirstCard();
     std::cout << house << std::endl;
 
     // Deal additional cards to player
