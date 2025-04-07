@@ -1,3 +1,7 @@
+// House.h
+// Declaration of the House (dealer) class, which inherits from GenericPlayer.
+// Contains logic specific to dealer behavior, including whether to hit and flipping the first card.
+
 #ifndef HOUSE_H
 #define HOUSE_H
 

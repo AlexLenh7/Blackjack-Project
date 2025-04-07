@@ -1,3 +1,7 @@
+// Game.h
+// Declaration of the Game class, which controls the flow of a Blackjack game.
+// Manages player and dealer actions, round logic, and determines the game result.
+
 #ifndef GAME_H
 #define GAME_H
 

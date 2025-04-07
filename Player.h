@@ -1,3 +1,7 @@
+// Player.h
+// Declaration of the Player class, which inherits from GenericPlayer.
+// Implements player-specific behaviors including hitting decisions and result announcements.
+
 #ifndef PLAYER_H
 #define PLAYER_H
 

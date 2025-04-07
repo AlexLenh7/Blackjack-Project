@@ -1,3 +1,8 @@
+// Card.h
+// Declaration of the Card class used in the Blackjack game.
+// Defines a playing card with a rank, suit, and visibility (face up/down).
+// Provides functionality to flip the card, get its value, and display it.
+
 #ifndef CARD_H
 #define CARD_H
 

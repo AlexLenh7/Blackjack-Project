@@ -1,3 +1,8 @@
+// GenericPlayer.h
+// Declaration of the abstract GenericPlayer class, which inherits from Hand.
+// Provides common functionality for both Player and House (dealer).
+// Contains name management, bust checking, and display logic.
+
 #ifndef GENERICPLAYER_H
 #define GENERICPLAYER_H
 

@@ -1,3 +1,7 @@
+// Deck.h
+// Declaration of the Deck class, which inherits from Hand.
+// Handles deck population, shuffling, dealing cards, and dealing additional cards to players.
+
 #ifndef DECK_H
 #define DECK_H
 
